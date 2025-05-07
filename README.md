@@ -4,7 +4,8 @@ GraphQL Exercise
 
 ---
 
-<!-- ![cgaimg](cga.png) -->
+![cga1img](cga1.png)
+![cga2img](cga2.png)
 
 [Patika GraphQL Project-1](https://academy.patika.dev/courses/graphql/project-01)
 

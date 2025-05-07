@@ -1,0 +1,71 @@
+query AllLanguages {
+  languages {
+    code
+    name
+    native
+    rtl
+  } 
+}
+
+query AllContinents {
+  continents {
+    code
+    name
+    countries {
+      name
+    }
+  }
+}
+
+query AllCountries {
+  countries {
+    code
+    name
+    awsRegion
+    capital
+    continent {
+      name
+    }
+    currencies
+    currency
+    emoji
+    emojiU
+    languages {
+      name
+    }
+    native
+    phone
+    phones
+  }
+}
+
+query Country {
+  country(code: "AE") {
+    name
+    capital
+    emoji
+    languages {
+      name
+    }
+  }
+}
+
+query Language {
+  language(code: "tr") {
+    code
+    name
+    native
+    rtl
+  }
+}
+
+query Continent {
+  continent(code: "EU") {
+    code
+    name
+    countries {
+      name
+    }
+  }
+}
+
